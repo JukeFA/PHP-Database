@@ -8,7 +8,7 @@
 <body>
 	<?php
 		$t = date("H");
-		echo "<p>The hour (of the server) is " . $T;
+		echo "<p>The hour (of the server) is " . $t;
 		echo ", and will give the following message:</p>";
 
 		if ($t < "10") {
