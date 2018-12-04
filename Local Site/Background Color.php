@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Background</title>
 </head>
-<?
+<?php
   $today = date("l");
   print("$today");
 
