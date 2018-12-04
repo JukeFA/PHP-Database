@@ -18,9 +18,9 @@
          {
             global $MyVar2
 
-            echo 'Inside a function<br/>,<br/>';
+            echo 'Inside a function <br>, <br>' ;
             echo '$MyVar1 == ' . $GLOBALS["MyVar1"] . '<br />';
-            echo '$MyVar2 == ' . $MyVar2
+            echo '$MyVar2 == ' . $MyVar2;
          }
          ?>
       </pre></body>
