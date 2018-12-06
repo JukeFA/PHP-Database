@@ -5,11 +5,12 @@
     <title>Random Champion Select</title>
 </head>
 <body>
-  League of Legends Random Champion Selection
+  League of Legends Random Champion Selection <br>
 </body>
 <?php
   $n=rand(1,10);
   print("Your randome numbder is: $n");
+  echo "<br>";
 
   if($n=1) {
     echo "Your champion is Ahri.";
