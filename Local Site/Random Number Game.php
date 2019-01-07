@@ -9,28 +9,28 @@
 </body>
 <?php
   $n=rand(1,10);
-  print("Your randome numbder is: $n");
+  print("Your random number is: $n");
   echo "<br>";
 
-  if($n=1) {
+  if($n==1) {
     echo "Your champion is Ahri.";
-  } elseif ($n=2) {
+  } elseif ($n==2) {
     echo "Your champion is Lee Sin.";
-  } elseif ($n=3) {
+  } elseif ($n==3) {
     echo "Your champion is Garren.";
-  } elseif ($n=4) {
+  } elseif ($n==4) {
     echo "Your champion is Bard.";
-  } elseif ($n=5) {
+  } elseif ($n==5) {
     echo "Your champion is Nitalie.";
-  } elseif ($n=6) {
+  } elseif ($n==6) {
     echo "Your champion is Nautalis.";
-  } elseif ($n=7) {
+  } elseif ($n==7) {
     echo "Your champion is Darius.";
-  } elseif ($n=8) {
+  } elseif ($n==8) {
     echo "Your champion is Victor.";
-  } elseif ($n=9) {
+  } elseif ($n==9) {
     echo "Your champion is Janna.";
-  } elseif ($n=10) {
+  } else {
     echo "Your champion is Talia.";
   }
 
